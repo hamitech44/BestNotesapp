@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:background="@color/colorPrimary">
+<View
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:background="@color/colorPrimaryDark">
+
+</View>
+    <TextView
+        android:id="@+id/notetitle"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="62"/>
+
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="35"
+        android:layout_width="0dp"
+        android:text="Dec 2019"
+        android:layout_height="wrap_content" />
+</LinearLayout>
